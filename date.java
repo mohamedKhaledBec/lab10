@@ -1,8 +1,9 @@
-public class Date {
+
+public class date {
     private int year;
     private int month;
     private int day;
-    public Date(int year, int month, int day) {
+    public date(int year, int month, int day) {
         this.year = year;
         this.month = month;
         this.day = day;
@@ -32,7 +33,7 @@ public class Date {
         this.day = day;
     }
 
-    public int daysInBetween(Date start, Date end) {
+    public int daysInBetween(date start, date end) {
         int yearsInBetween=end.year-start.year;
         int monthsInBetween=end.month-start.month;
         int daysInBetween=end.day-start.day;
